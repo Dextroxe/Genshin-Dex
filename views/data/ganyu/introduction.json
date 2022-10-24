@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Ganyu"
+    },
+    "image": {
+        "url": "https://i.imgur.com/uzxtSoN.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/2Tff8N2.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Liyue"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Yuehai Pavilion"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Cryo <:Cryo:951729013674623017>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Sinae Unicornis"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Bow"
+        }
+    ],
+    "color": 10147839,
+    "type": "rich",
+    "description": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+    "title": "Ganyu | Introduction"
+}

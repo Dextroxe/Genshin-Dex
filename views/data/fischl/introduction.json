@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Fischl"
+    },
+    "image": {
+        "url": "https://i.imgur.com/56WmQ8I.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/78124Xb.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Mondstadt"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Adventurers' Guild"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Electro <:Electro:951729014165344278>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Corvus"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Bow"
+        }
+    ],
+    "color": 11104511,
+    "type": "rich",
+    "description": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+    "title": "Fischl | Introduction"
+}

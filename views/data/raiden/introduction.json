@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Raiden Shogun"
+    },
+    "image": {
+        "url": "https://i.imgur.com/56WmQ8I.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/4NdsZHk.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Inazuma"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Inazuma City"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Electro <:Electro:951729014165344278>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Imperatrix Umbrosa"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Polearm"
+        }
+    ],
+    "color": 11104511,
+    "type": "rich",
+    "description": "Her Excellency, the Almighty, Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
+    "title": "Raiden Shogun | Introduction"
+}

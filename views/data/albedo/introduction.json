@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Albedo"
+    },
+    "image": {
+        "url": "https://i.imgur.com/XlWnH6g.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/oDUkuVY.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Mondstadt"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Knights of Favonius"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Geo <:Geo:951729014094065674>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Princeps Cretaceus"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Sword"
+        }
+    ],
+    "color": 14994176,
+    "type": "rich",
+    "description": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+    "title": "Albedo | Introduction"
+}

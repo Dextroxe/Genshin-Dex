@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Jean"
+    },
+    "image": {
+        "url": "https://i.imgur.com/nSL3fPX.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/uuGppMs.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Mondstadt"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Knights of Favonius"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Anemo <:Anemo:951729013859155979>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Leo Minor"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Sword"
+        }
+    ],
+    "color": 5494962,
+    "type": "rich",
+    "description": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius",
+    "title": "Jean | Introduction"
+}

@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Qiqi"
+    },
+    "image": {
+        "url": "https://i.imgur.com/uzxtSoN.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/lp93jNn.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Liyue"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Bubu Pharmacy"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Cryo <:Cryo:951729013674623017>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Pristina Nola"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Sword"
+        }
+    ],
+    "color": 10147839,
+    "type": "rich",
+    "description": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+    "title": "Qiqi | Introduction"
+}

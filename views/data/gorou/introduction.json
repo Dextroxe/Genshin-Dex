@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Gorou"
+    },
+    "image": {
+        "url": "https://i.imgur.com/XlWnH6g.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/TsnQcuP.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Inazuma"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Watatsumi Island"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Geo <:Geo:951729014094065674>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Canis Bellatoris"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Bow"
+        }
+    ],
+    "color": 14994176,
+    "type": "rich",
+    "description": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+    "title": "Gorou | Introduction"
+}

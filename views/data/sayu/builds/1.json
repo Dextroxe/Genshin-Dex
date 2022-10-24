@@ -1,0 +1,53 @@
+{
+    "footer": {
+        "text": "Character Guide \u2022 Build: Sayu"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/oYiMaic.png"
+    },
+    "fields": [
+        {
+            "inline": "true",
+            "name": "Best Weapon(s):",
+            "value": "Skyward Pride"
+        },
+        {
+            "inline": "true",
+            "name": "Replacement Weapon:",
+            "value": "Skyward Spine, Favonius Greatsword, Wolf's Gravestone,Sacrificial Greatsword"
+        },
+        {
+            "inline": "false",
+            "name": "Best Artifact Set:",
+            "value": "x4-viridescentvenerer"
+        },
+        {
+            "inline": "false",
+            "name": "Second Best Artifact Set:",
+            "value": "x2-viridescentvenerer|x2-wandererstroupe"
+        },
+        {
+            "inline": "false",
+            "name": "Third Best Artifact Set:",
+            "value": "x4-noblesseoblige"
+        },
+        {
+            "inline": "true",
+            "name": "Main Stats Priority",
+            "value": "<sands> Elemental Mastery or ATK% or Energy Recharge |<goblet>  Elemental Mastery or ATK% |<circlet>  Elemental Mastery or ATK% or Healing Bonus"
+        },
+        {
+            "inline": "true",
+            "name": "Substats Priority",
+            "value": "ATK%|Energy Recharge|Elemental Mastery        "
+        },
+        {
+            "inline": "false",
+            "name": "Talent Priority",
+            "value": "**1)** Elemental Burst: Yoohoo Art - Mujina Flurry\n**2)** Elemental Skill: Yoohoo Art - Fuuin Dash\n**3)** Normal Attack: Shuumastuban Ninja Blade\n"
+        }
+    ],
+    "color": 5494962,
+    "type": "rich",
+    "title": "Sayu (Support) | Build"
+}

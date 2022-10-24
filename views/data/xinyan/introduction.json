@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Xinyan"
+    },
+    "image": {
+        "url": "https://i.imgur.com/X8lPFdK.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/T6meiSo.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Liyue"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Liyue Harbor"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Pyro <:Pyro:951729013804650507>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Fila Ignium"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Claymore"
+        }
+    ],
+    "color": 16733525,
+    "type": "rich",
+    "description": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+    "title": "Xinyan | Introduction"
+}

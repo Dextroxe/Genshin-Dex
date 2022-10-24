@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Ningguang"
+    },
+    "image": {
+        "url": "https://i.imgur.com/XlWnH6g.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/w9LQJFO.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Liyue"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Liyue Qixing"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Geo <:Geo:951729014094065674>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Opus Aequilibrium"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Catalyst"
+        }
+    ],
+    "color": 14994176,
+    "type": "rich",
+    "description": "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+    "title": "Ningguang | Introduction"
+}

@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Diluc"
+    },
+    "image": {
+        "url": "https://i.imgur.com/X8lPFdK.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/SsCTU9V.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Mondstadt"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Dawn Winery"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Pyro <:Pyro:951729013804650507>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Noctua"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Claymore"
+        }
+    ],
+    "color": 16733525,
+    "type": "rich",
+    "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+    "title": "Diluc | Introduction"
+}

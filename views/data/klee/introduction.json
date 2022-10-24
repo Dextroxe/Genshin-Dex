@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Klee"
+    },
+    "image": {
+        "url": "https://i.imgur.com/X8lPFdK.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/DsfaSum.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Mondstadt"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Knights of Favonius"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Pyro <:Pyro:951729013804650507>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Trifolium"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Catalyst"
+        }
+    ],
+    "color": 16733525,
+    "type": "rich",
+    "description": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+    "title": "Klee | Introduction"
+}

@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Keqing"
+    },
+    "image": {
+        "url": "https://i.imgur.com/56WmQ8I.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/PQDR6HJ.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Liyue"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Liyue Qixing"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Electro <:Electro:951729014165344278>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Trulla Cementarii"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Sword"
+        }
+    ],
+    "color": 11104511,
+    "type": "rich",
+    "description": "The Yuheng of the Liyue Qixing. Has much to say about Rex Lapis' unilateral approach to policymaking in Liyue - but in truth, gods admire skeptics such as her quite a lot.",
+    "title": "Keqing | Introduction"
+}

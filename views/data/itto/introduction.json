@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Itto"
+    },
+    "image": {
+        "url": "https://i.imgur.com/XlWnH6g.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/rV4eWpl.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Inazuma"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Arataki Gang"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Geo <:Geo:951729014094065674>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Taurus Iracundus"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Claymore"
+        }
+    ],
+    "color": 14994176,
+    "type": "rich",
+    "description": "Fast as the wind and mighty as thunder, he is an intrepid man with Oni blood running through his veins.",
+    "title": "Itto | Introduction"
+}

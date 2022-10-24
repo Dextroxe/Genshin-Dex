@@ -1,0 +1,53 @@
+{
+    "footer": {
+        "text": "Character Guide \u2022 Build: Xingqiu"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/YpsKjVK.png"
+    },
+    "fields": [
+        {
+            "inline": "true",
+            "name": "Best Weapon(s):",
+            "value": "__Primordial Jade Cutter__ Best offensive option for C6, as long as ER requirements are met. Not recommended for non-C6 Xingqiu.\n\n__R3+ Sacrificial Sword__ High Energy Recharge substat and a useful passive help ease reaching ER requirements, and allow for an easier offensive build. Recommended for non-C6 Xingqiu"
+        },
+        {
+            "inline": "true",
+            "name": "Replacement Weapon:",
+            "value": "Mistsplitter Reforged, Favonius Sword, Amenoma Kageuchi, Sacrificial Sword"
+        },
+        {
+            "inline": "false",
+            "name": "Best Artifact Set:",
+            "value": "x4-emblemofseveredfate"
+        },
+        {
+            "inline": "false",
+            "name": "Second Best Artifact Set:",
+            "value": "x4-noblesseoblige"
+        },
+        {
+            "inline": "false",
+            "name": "Third Best Artifact Set:",
+            "value": "x2-heartofdepth|x2-noblesseoblige"
+        },
+        {
+            "inline": "true",
+            "name": "Main Stats Priority",
+            "value": "<sands> Energy Recharge or ATK% |<goblet>  Hydro DMG Bonus |<circlet>  CRIT DMG or CRIT Rate"
+        },
+        {
+            "inline": "true",
+            "name": "Substats Priority",
+            "value": "Energy Recharge|CRIT DMG or CRIT Rate|ATK%        "
+        },
+        {
+            "inline": "false",
+            "name": "Talent Priority",
+            "value": "**1)** Elemental Burst: Guhua Sword - Raincutter\n**2)** Elemental Skill: Guhua Sword - Fatal Rainscreen\n**3)** Normal Attack: Guhua Style\n"
+        }
+    ],
+    "color": 3245055,
+    "type": "rich",
+    "title": "Xingqiu (Off-Field DPS) | Build"
+}

@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Yoimiya"
+    },
+    "image": {
+        "url": "https://i.imgur.com/X8lPFdK.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/D5tXbxb.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Inazuma"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Naganohara Fireworks"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Pyro <:Pyro:951729013804650507>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Carassius Auratus"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Bow"
+        }
+    ],
+    "color": 16733525,
+    "type": "rich",
+    "description": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+    "title": "Yoimiya | Introduction"
+}

@@ -1,0 +1,43 @@
+{
+    "footer": {
+        "text": "Character Guide • Constellations: Xiao"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/uSkv5pg.png"
+    },
+    "fields": [
+        {
+            "inline": false,
+            "name": "Dissolution Eon - Destroyer of Worlds (C1)",
+            "value": "Increases Lemniscatic Wind Cycling's charges by 1."
+        },
+        {
+            "inline": false,
+            "name": "Annihilation Eon - Blossom of Kaleidos (C2)",
+            "value": "When in party but not the currently active character, Xiao's Energy Recharge is increased by 25%."
+        },
+        {
+            "inline": false,
+            "name": "Evil Conqueror - Wrath Deity (C3)",
+            "value": "Increases the Level of Lemniscatic Wind Cycling by 3.\nMaximum upgrade level is 15."
+        },
+        {
+            "inline": false,
+            "name": "Transcension - Extinction of Suffering (C4)",
+            "value": "When Xiao's HP falls below 50%, gains a 100% DEF Bonus."
+        },
+        {
+            "inline": false,
+            "name": "Evolution Eon - Origin of Ignorance (C5)",
+            "value": "Increase the Level of Bane of All Evil by 3.\nMaximum upgrade level is 15."
+        },
+        {
+            "inline": false,
+            "name": "Evil Conqueror - Vigilant Yaksha (C6)",
+            "value": "During Bane of All Evil, hitting 2 or more enemies with a Charged Attack grants Lemniscatic Wind Cycling 1 additional charge and reduces Lemniscatic Wind Cycling's CD by 1s."
+        }
+    ],
+    "color": 5494962,
+    "type": "rich",
+    "title": "Xiao | Constellations"
+}

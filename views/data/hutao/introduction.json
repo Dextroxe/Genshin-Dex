@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Hu Tao"
+    },
+    "image": {
+        "url": "https://i.imgur.com/X8lPFdK.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/mvF8rwX.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Liyue"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Wangsheng Funeral Parlor"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Pyro <:Pyro:951729013804650507>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Papilio Charontis"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Polearm"
+        }
+    ],
+    "color": 16733525,
+    "type": "rich",
+    "description": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+    "title": "Hu Tao | Introduction"
+}

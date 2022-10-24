@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Sayu"
+    },
+    "image": {
+        "url": "https://i.imgur.com/nSL3fPX.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/oYiMaic.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Inazuma"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Shuumatsuban"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Anemo <:Anemo:951729013859155979>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Nyctereutes Minor"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Claymore"
+        }
+    ],
+    "color": 5494962,
+    "type": "rich",
+    "description": "A pint-sized ninja attached to the Shuumatsuban, who always seems to be lacking sleep.",
+    "title": "Sayu | Introduction"
+}

@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Tartaglia"
+    },
+    "image": {
+        "url": "https://i.imgur.com/KJbeHEM.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/SLuf0m3.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Snezhnaya"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Fatui"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Hydro <:Hydro:951729014249234442>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Monoceros Caeli"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Bow"
+        }
+    ],
+    "color": 3245055,
+    "type": "rich",
+    "description": "No. 11 of The Harbingers, also known as \"Childe\". His name is highly feared on the battlefield.",
+    "title": "Tartaglia | Introduction"
+}

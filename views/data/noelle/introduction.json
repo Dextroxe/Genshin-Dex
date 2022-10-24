@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Noelle"
+    },
+    "image": {
+        "url": "https://i.imgur.com/XlWnH6g.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/klBUgnZ.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Mondstadt"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Knights of Favonius"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Geo <:Geo:951729014094065674>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Parma Cordis"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Claymore"
+        }
+    ],
+    "color": 14994176,
+    "type": "rich",
+    "description": "A maid who faithfully serves the Knights of Favonius that dreams of joining their ranks someday.",
+    "title": "Noelle | Introduction"
+}

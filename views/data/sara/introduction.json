@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Kujou Sara"
+    },
+    "image": {
+        "url": "https://i.imgur.com/56WmQ8I.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/yGSQBnz.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Inazuma"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Tenryou Commission"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Electro <:Electro:951729014165344278>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Flabellum"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Bow"
+        }
+    ],
+    "color": 11104511,
+    "type": "rich",
+    "description": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+    "title": "Kujou Sara | Introduction"
+}

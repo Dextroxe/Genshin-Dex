@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="/style/show.css" rel="stylesheet" type="text/css">
+        <link href="/style/show.js" rel="javascript">
+        
+    <title>All characters</title>
+</head>
+
+<body>
+
+
+    <div class="bg-image"></div>
+    <div class="container-fluid  ">
+        <h1 class="text-center">Genshin Characters</h1>
+
+        <footer class="border contain rounded ">
+            <section class="mw-100">
+                <div class="row justify-content-left ">
+                    <div class="col g-2 ">
+                        <div class="row-2 d-flex flex-wrap  justify-content-left container-fluid">
+                            <div
+                            class="w-50 p-2 col  rounded contains d-flex flex-wrap  justify-content-between">
+                            <div class="element-type-Anemo shadow-lg mb-5  rounded"> <h5 class="text-center">Anemo</h5></div>
+                            <% for (let i=0; i<=53 ; i++) { %>
+                                    <% if (info.characters_map[i].element=="Anemo" ) { %>
+                                        <a href="/genshin/<%=info.characters_map[i].name.toLowerCase()%>">
+                                            <div class="border  m-1 rounded-start">
+                                                <div class="card " style="width: 7rem">
+                                                    <img src="<%=info.characters_map[i].icon%>" style="background-color: #54dcb4;" class="card-img-top "
+                                                        alt="...">
+                                                    <div class="card-body p-1 text-center char-name">
+                                                        <span
+                                                            class="card-title text-uppercase fw-light font-monospace ">
+                                                            <%=info.characters_map[i].name %>
+                                                        </span>
+                                                        <p class="card-text">
+
+                                                        </p>
+                                             
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <% } %>
+                                         
+                                            <% } %>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col g-2 ">
+                        <div class="row-2 d-flex flex-wrap  container-fluid">
+                            <div
+                                class="w-50 p-2 col contains rounded d-flex flex-wrap  justify-content-between">
+                                <div class="element-type-Cryo shadow-lg mb-5  rounded"> <h5 class="text-center">Cryo</h5></div>
+                                <% for (let i=0; i<=53 ; i++) { %>
+                                    <% if (info.characters_map[i].element=="Cryo" ) { %>
+                                        <a href="/genshin/<%=info.characters_map[i].name.toLowerCase()%>">
+                                        <div class="border  m-1 rounded-start ">
+                                            <div class="card " style="width: 7rem">
+                                                <img src="<%=info.characters_map[i].icon%>" style="background-color: #b9dfe4;" class="card-img-top "alt="...">
+                                                <div class="card-body p-1 text-center char-name">
+                                                    <span class="card-title text-uppercase fw-light font-monospace">
+                                                        <%=info.characters_map[i].name %>
+                                                    </span>
+                                                    <p class="card-text">
+
+                                                    </p>
+                                               
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        <% } %>
+                                            <% } %>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <div class="line"></div>
+
+            <section class="mw-100">
+                <div class="row">
+                    <div class="col g-2 ">
+                        <div class="row-2 d-flex flex-wrap  justify-content-right container-fluid">
+                            <div
+                                class="w-50 p-2 col contains rounded d-flex flex-wrap  justify-content-between">
+                                <div class="element-type-Dendro shadow-lg mb-5  rounded"> <h5 class="text-center">Dendro</h5></div>
+                                <% for (let i=0; i<=53 ; i++) { %>
+                                    <% if (info.characters_map[i].element=="Dendro" ) { %>
+                                        <a href="/genshin/<%=info.characters_map[i].name.toLowerCase()%>">
+                                        <div class="border  m-1 rounded-start">
+                                            <div class="card " style="width: 7rem">
+                                                <img src="<%=info.characters_map[i].icon%>" class="card-img-top "
+                                                    alt="...">
+                                                <div class="card-body p-1 text-center char-name">
+                                                    <span class="card-title text-uppercase fw-light font-monospace">
+                                                        <%=info.characters_map[i].name %>
+                                                    </span>
+                                                    <p class="card-text">
+
+                                                    </p>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        <% } %>
+                                            <% } %>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col g-2 ">
+                        <div class="  row-2 d-flex flex-wrap  justify-content-right container-fluid">
+                            <div
+                                class="w-50 p-2 col contains rounded d-flex flex-wrap  justify-content-between">
+                                <div class="element-type-Electro shadow-lg mb-5  rounded"> <h5 class="text-center">Electro</h5></div>
+                                <% for (let i=0; i<=53 ; i++) { %>
+                                    <% if (info.characters_map[i].element=="Electro" ) { %>
+                                        <a href="/genshin/<%=info.characters_map[i].name.toLowerCase()%>">
+                                        <div class="border m-1 rounded-start">
+                                            <div class="card " style="width: 7rem">
+                                                <img src="<%=info.characters_map[i].icon%>" class="card-img-top " style="background-color: #ae62c7" alt="...">
+                                                <div class="card-body p-1 text-center char-name">
+                                                    <span class="card-title text-uppercase fw-light font-monospace">
+                                                        <%=info.characters_map[i].name %>
+                                                    </span>
+                                                    <p class="card-text">
+
+                                                    </p>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        <% } %>
+                                            <% } %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="line"></div>
+
+            <section class="mw-100">
+                <div class="row">
+                    <div class="col g-2 ">
+                        <div class="row-2 d-flex flex-wrap  justify-content-right container-fluid">
+                            <div
+                                class="w-50 p-2 col contains rounded d-flex flex-wrap  justify-content-between">
+                                <div class="element-type-Geo shadow-lg mb-5  rounded"> <h5 class="text-center">Geo</h5></div>
+                                <% for (let i=0; i<=53 ; i++) { %>
+                                    <% if (info.characters_map[i].element=="Geo" ) { %>
+                                        <a href="/genshin/<%=info.characters_map[i].name.toLowerCase()%>">
+                                            <div class="border  m-1 rounded-start">
+                                                <div class="card " style="width: 7rem">
+                                                    <img src="<%=info.characters_map[i].icon%>" class="card-img-top " style="background-color: #e8c660"
+                                                        alt="...">
+                                                    <div class="card-body p-1 text-center char-name">
+                                                        <span class="card-title text-uppercase fw-light font-monospace">
+                                                            <%=info.characters_map[i].name %>
+                                                        </span>
+                                                        <p class="card-text">
+
+                                                        </p>
+                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <% } %>
+                                            <% } %>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col g-2 ">
+                        <div class="row-2 d-flex flex-wrap  justify-content-right container-fluid">
+                            <div
+                                class="w-50 p-2 col contains rounded d-flex flex-wrap  justify-content-between">
+                                <div class="element-type-Hydro shadow-lg mb-5  rounded"> <h5 class="text-center">Hydro</h5></div>
+                                <% for (let i=0; i<=53 ; i++) { %>
+                                    <% if (info.characters_map[i].element=="Hydro" ) { %>
+                                        <a href="/genshin/<%=info.characters_map[i].name.toLowerCase()%>">
+                                        <div class="border  m-1 rounded-start">
+                                            <div class="card " style="width: 7rem">
+                                                <img src="<%=info.characters_map[i].icon%>" class="card-img-top " style="background-color: #75a5be"
+                                                    alt="...">
+                                                <div class="card-body p-1 text-center char-name">
+                                                    <span class="card-title text-uppercase fw-light font-monospace">
+                                                        <%=info.characters_map[i].name %>
+                                                    </span>
+                                                    <p class="card-text">
+
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        <% } %>
+                                            <% } %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="line"></div>
+
+            <section class="mw-100">
+                <div class="row">
+                    <div class="col g-2 ">
+                        <div class="row-2 d-flex flex-wrap  justify-content-right container-fluid">
+                            <div
+                                class="w-50 p-2 col contains rounded d-flex flex-wrap  justify-content-between">
+                                <div class="element-type-Pyro shadow-lg mb-5  rounded"> <h5 class="text-center">Pyro</h5></div>
+                                <% for (let i=0; i<=53 ; i++) { %>
+                                    <% if (info.characters_map[i].element=="Pyro" ) { %>
+                                        <a href="/genshin/<%=info.characters_map[i].name.toLowerCase()%>">
+                                        <div class="border  m-2 rounded-start">
+                                            <div class="card " style="width: 7rem">
+                                                <img src="<%=info.characters_map[i].icon%>" class="card-img-top " style="background-color: #BF3636"
+                                                    alt="...">
+                                                <div class="card-body p-1 text-center char-name">
+                                                    <span class="card-title text-uppercase fw-light font-monospace element">
+                                                        <%=info.characters_map[i].name %>
+                                                    </span>
+                                                    <p class="card-text ">
+                                                    
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                        <% } %>
+                                            <% } %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+    </div>
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+{
+    "footer": {
+        "text": "Character Guide • Introduction: Ayato"
+    },
+    "image": {
+        "url": "https://i.imgur.com/KJbeHEM.png"
+    },
+    "thumbnail": {
+        "url": "https://i.imgur.com/aIcY8dQ.png"
+    },
+    "fields": [
+        {
+            "inline": true,
+            "name": "Nation",
+            "value": "Inazuma"
+        },
+        {
+            "inline": true,
+            "name": "Affiliation",
+            "value": "Kamisato Clan"
+        },
+        {
+            "inline": true,
+            "name": "Element Type",
+            "value": "Hydro <:Hydro:951729014249234442>"
+        },
+        {
+            "inline": true,
+            "name": "Rarity",
+            "value": "★★★★★"
+        },
+        {
+            "inline": true,
+            "name": "Constellation",
+            "value": "Cypressus Custos"
+        },
+        {
+            "inline": true,
+            "name": "Weapon",
+            "value": "Sword"
+        }
+    ],
+    "color": 3245055,
+    "type": "rich",
+    "description": "Current head of the Kamisato Clan and, accordingly, the Yashiro Commissioner. He always has a way of attaining his purpose in a well-thought-out manner. However, few people understand what that 'goal' he holds most dear is.",
+    "title": "Ayato | Introduction"
+}
