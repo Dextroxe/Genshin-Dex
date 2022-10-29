@@ -1,0 +1,173 @@
+body {
+    background-image: linear-gradient(to left top, #231942, #552747, 
+        #783e49, #8f5e4d, #9c815d, #948962, #8b916b, #839877, #6d8569, #59725c, #46604e, #344e41);
+}
+.banner{
+    display: grid;
+    z-index: 0;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* width: 100%; */
+    background-image: url("/images/nahida.jpg");
+    height: 405px;
+    /* background-color: linear-gradient(to right top, #007200, #008000, #38b000, #70e000, #ccff33); */
+    background-position: center;
+     /* filter: blur(2px); */
+   /* -webkit-filter: blur(0.2px);  */
+    /* margin-top: 0; */
+    border-radius: 15px
+    /* padding-bottom: 5%; */
+   
+  }
+  .headerBox{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* position: relative;
+      z-index: 1; */
+      backdrop-filter: blur(15px);
+      border-radius: 15px;
+      /* background-color: #006400; */
+      width: 95%;
+      height: 80%;
+  
+      margin: auto;
+      grid-row-start: 1;
+      grid-row-end: 4;
+  
+  
+  }
+
+  .header-text{
+    display: flex;
+    justify-content: center;
+    /* justify-self: center;  */
+    /* text-justify:distribute; */
+    /* position: relative;*/
+      z-index: 2; 
+    /* position: relative; */
+      grid-row-start: 2;
+      grid-row-end: 3;
+    background-image: linear-gradient(to right, #006400, #215f0c, #2f5917, #375420,
+     #3d4f28, #3d4c2b, #3d482d, #3d4530, #3a432e, #38412c, #353f2b, #333d29);
+    /* backdrop-filter: blur(5px); */
+    
+    -webkit-text-fill-color: transparent;
+    /* backdrop-filter: blur(5px); */
+    width:40%;
+    font-weight: bolder;
+    font-size:5rem;
+    width: auto;
+    margin: auto;
+    /* height: auto; */
+    /* transform: translate(100%, 400%); */
+    -webkit-background-clip: text;
+    
+    
+  }
+
+.container {
+    margin-top: 5%;
+    border-radius: 15px;
+    display: grid;
+    gap: 1.5rem;
+    padding-block: 2rem;
+    width: min(90%,80rem);
+    margin-inline: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:
+        minmax(300px, max-content) repeat(grid-auto-flow, 300px);
+        background-image: linear-gradient(to left top, #231942, #552747, 
+        #783e49, #8f5e4d, #9c815d, #948962, #8b916b, #839877, #6d8569, #59725c, #46604e, #344e41);
+    grid-template-areas: 
+                "Image",
+                "Description",
+                "Constillation",
+                "Passive",
+                "Playstyle",
+                "synergies",
+                "skill";
+}
+
+.char-img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 15rem;
+    height: auto;
+    /* width: auto; */
+
+
+}
+
+.desc{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start:1; 
+    grid-row-end: 2;
+    height: max-content;
+    margin-left: 0;
+    /* height: 50%; */
+    /* width: 100%; */
+    /* background-color: #231942; */
+    /* grid-column: span 2; */
+    
+    
+}
+.card-body{
+    height: 100%;
+}
+
+.skill{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
+
+.passive{
+    /* grid-row-start: 5;
+    grid-row-end: 5; */
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
+.playstyle{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+.cons{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* min-width: 20px; */
+
+}
+.synergy{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.card-body{
+    background-image: linear-gradient(to right top, #25a244, #1f8a3a, #1a7230, #155b26, #10451d);
+    color: wheat;
+}
+
+img{
+    background-color: inherit;
+}
+
+.footer{
+    margin-top: 5%;
+    padding-left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: black;  
+    backdrop-filter: blur(10px);
+   /* position: relative;  */
+   
+    
+    
+  } 

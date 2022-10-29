@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path')
 const { EnkaNetwork } = require("enkanetwork");
-const CharInfo = require('./views/images/chracters_img.json')
+const CharInfo = require('./views/images/characters_img.json')
 const enka = new EnkaNetwork({ language: "EN", caching: true });
 
 
@@ -31,9 +31,9 @@ app.get('/genshin',  (req,res) => {
 // })
 
 
-const charAlbedo = require('./routes/albedo')
+const character = require('./routes/character')
 
-app.use('/genshin', charAlbedo)
+app.use('/genshin', character)
 app.use(express.static(__dirname + '/public'));
 
 

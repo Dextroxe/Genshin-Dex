@@ -1,67 +1,246 @@
 
-.contain{
-  background-color: #95a5b3;
-  background-blend-mode:darken;
-  /* background: linear-gradient(50deg, red, rgba(0, 0, 255 ,1)); */
-  background: url("/images/AYATO1.jpg")  bottom repeat, url("/images/AYATO.jpg")  top repeat;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+body{
+  background-image: linear-gradient(to left top, #231942, #552747, #783e49, #8f5e4d, #9c815d, #948962, #8b916b, #839877, #6d8569, #59725c, #46604e, #344e41);
   
-  
-  background-repeat: no-repeat;
 }
 
-.bg-image {
-  /* The image used */
-  
-  /* Add the blur effect */
-  
-  /* Full height */
-  height: 100%;
-  
-  /* Center and scale the image nicely */
+.banner{
+  display: grid;
+  z-index: 0;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* width: 100%; */
+  background-image: url("/images/nahida.jpg");
+  height: 405px;
+  /* background-color: linear-gradient(to right top, #007200, #008000, #38b000, #70e000, #ccff33); */
   background-position: center;
-  background-size: cover;
+   /* filter: blur(2px); */
+ /* -webkit-filter: blur(0.2px);  */
+  /* margin-top: 0; */
+  border-radius: 15px
+  /* padding-bottom: 5%; */
+  
+ 
 }
 
-.contains{
-  background-color: rgba(0,0,0, 0.4); 
-  position: relative;
-  left: 0.2%;
-  object-fit: contain;
+.headerBox{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* position: relative;
+    z-index: 1; */
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    /* background-color: #006400; */
+    width: 95%;
+    height: 80%;
 
+    margin: auto;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+
+}
+
+.header-text{
+  display: flex;
+  justify-content: center;
+  /* justify-self: center;  */
+  /* text-justify:distribute; */
+  /* position: relative;*/
+    z-index: 2; 
+  /* position: relative; */
+    grid-row-start: 2;
+    grid-row-end: 3;
+  background-image: linear-gradient(to right, #006400, #215f0c, #2f5917, #375420,
+   #3d4f28, #3d4c2b, #3d482d, #3d4530, #3a432e, #38412c, #353f2b, #333d29);
+  /* backdrop-filter: blur(5px); */
+  
+  -webkit-text-fill-color: transparent;
+  /* backdrop-filter: blur(5px); */
+  width:40%;
+  font-weight: bolder;
+  font-size:5rem;
+  width: auto;
+  margin: auto;
+  /* height: auto; */
+  /* transform: translate(100%, 400%); */
+  -webkit-background-clip: text;
+  
   
 }
-a, u {
-  text-decoration: none;
-  color:#14213d;
+
+.main{
+display:grid;
+gap: 2rem;
+grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+grid-template-rows:
+  minmax(400px, max-content)
+  repeat(grid-auto-flow, 300px) ;
+/* grid-template-rows: auto;  */
+/* margin-inline: auto; */
+/* margin-bottom: 5%; */
+
+
+}
+.grid-col-span-2{
+  grid-column: span 2;
+  
+  
+}
+
+/* .main:last-child{ */
+  /* grid-column: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; */
+  /* } */
+  
+  
+  .info
+  {
+  /* column-gap: 2%; */
+  /* grid-auto-flow: column; */
+  /* position: relative; */
+  width: 80%;
+  margin-left: 0%;
+  background-color: #d9ed92;
+  margin-top: 0%;
+  /* height: 10%; */
+  /* grid-auto-rows: 3fr; */
+  /* z-index: 1; */
+ 
+  
+}
+.news{ 
+  background-color: #d9ed92;
+  width: 80%
+ }
+
+
+
+  .characters-box {
+    
+    /* grid-column: 3; */
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 11;
+  background-color: #95a5b3;
+  background-blend-mode: darken;
+  background-image: linear-gradient(to left top, #231942, #552747, #783e49, #8f5e4d, #9c815d, #948962, #8b916b, #839877, #6d8569, #59725c, #46604e, #344e41);
+  /* background: url("/images/Nahida3.jpg") bottom repeat, url("/images/Nahida1.jpg") top repeat; */
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  width: 80%;
+  /* height: 100%; */
+  /* backdrop-filter: blur(2px); */
+  
+  /* height: auto; */
+  /* position: absolute; */
+  background-repeat: no-repeat;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+  
+  
+  border-radius: 15px;
+  /* z-index: 1; */
+
+  /* scrollbar-shadow-color: #245663; */
+}
+
+
+
+
+.contain-card {
+  /* position: inherit; */
+  /* display: grid; */
+  backdrop-filter: blur(10px);
+  width: 94%;
+  gap: 1.5rem;
+  column-gap: 0;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border-radius: 15px;
+  /* z-index: 2; */
+  
+}
+
+
+a,u {
+  text-decoration:none;
+  color: #14213d;
 
 }
 
-.element-type-Anemo,.element-type-Cryo,.element-type-Dendro,.element-type-Electro,.element-type-Geo,.element-type-Hydro,.element-type-Pyro{
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contain-card:hover{
+  color: wheat;
+  text-decoration: none;
+
+}
+
+.char:hover {
+  
+  text-decoration: line-through;
+  
+  transition: 0.4s;
+  
+}
+
+/* .element-type {
   color: white;
   font-weight: bold;
-  /* border: 3px solid #f1f1f1; */
-  background-color: rgba(0,0,0,0.5); 
-  position: absolute;
-  top: 0;
-  right: 0%;
-  /* transform: translate(-50%, -50%); */
-  z-index: 2;
+ background-color: rgba(0, 0, 0, 0.2); 
+  top: -10%;
+  transform: translate(0%, 0%);
+  z-index: 5;
+  grid-template-rows: 40px;
+
+}  */
+
+
+.char-name {
+  /* background-color: #f5ebe0; */
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
+  font-size:large;
+
+}
+
+
+
+.p-2 {
+  background-color: rgba(255, 255, 255, 0.2);
+   
+}
+
+.tweet-info{
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+
+
+
+
+.footer{
+  margin-top: 5%;
+  padding-left: 0;
   width: 100%;
-  padding: 5px;
+  height: 400px;
+  background-color: black;  
+  backdrop-filter: blur(10px);
+ /* position: relative;  */
+ 
+  
+  
+} 
 
-
+.tweet-info{
+  margin-top: 5%;
 }
-/* 
-.line {
-  height: 1px;
-  background: #95a5b3;
-  margin-top: 0.5%;
-  margin-bottom: 0%;
-} */
 
-.char-name{
-  background-color: #f5ebe0;
-}

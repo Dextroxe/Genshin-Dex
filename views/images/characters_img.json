@@ -1,4 +1,18 @@
 {
+    "elements_map": {
+        "element": {
+            "pyro" : "link",
+            "Hydro": "link",
+            "Cryo": "link",
+            "Dendro": "link",
+            "Anemo": "link",
+            "Geo": "link",
+            "Electro":"link"
+        }
+
+    },
+    
+    
     "characters_map": {
         "0": {
             "element": "Cryo",
@@ -15,7 +29,7 @@
         "2": {
             "element": "Anemo",
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
-            "name": "Aether",
+            "name": "Aether-Anemo",
             "rarity": 5
         },
         "3": {
@@ -309,20 +323,66 @@
         "51": {
             "element": "Geo",
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
-            "name": "Aether",
+            "name": "Aether-Geo",
             "rarity": 5
         },
         "52": {
             "element": "Electro",
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
-            "name": "Aether",
+            "name": "Aether-Electro",
             "rarity": 5
         },
         "53": {
             "element": "Dendro",
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
-            "name": "Aether",
+            "name": "Aether-Dendro",
             "rarity": 5
+        },
+        "54": {
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+            "name": "Heizou",
+            "rarity": 4
+        },
+        "55": {
+            "element": "Dendro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
+            "name": "Collei",
+            "rarity": 4
+        },
+    
+        "56": {
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
+            "name": "Dori",
+            "rarity": 4
+        },
+    
+        "57": {
+            "element": "Dendro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
+            "name": "Tighnari",
+            "rarity": 5
+        },
+        "58": {
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
+            "name": "Nilou",
+            "rarity": 5
+        },
+        "59": {
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
+            "name": "cyno",
+            "rarity": 5
+        },
+        "60": {
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
+            "name": "Candace",
+            "rarity": 4
+    
         }
     }
+    
 }

@@ -1,5 +1,7 @@
-const build = require('./builds/1.json')
 const intro = require('./introduction.json')
+const build1 = require('./builds/1.json')
+const build2 = require('./builds/2.json')
+
 const asc = require('./ascension.json')
 const cons = require('./constellations.json')
 const p = require('./passive.json')
@@ -9,4 +11,4 @@ const syn = require('./synergies.json')
 
 
 module.exports= {
-    asc,build,cons,intro,p,ps,sk,syn,}
+    asc,cons,intro,p,ps,sk,syn,build1,build2}

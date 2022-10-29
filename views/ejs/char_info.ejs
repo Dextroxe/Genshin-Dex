@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/show.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="/style/char_info_style.css" rel="stylesheet" type="text/css">
+  <title><%=name %> </title>
+</head>
+
+<body>
+
+  
+  <header class="banner ">
+    <section class="headerBox">
+    <h1 class="text-center text-uppercase header-text font-monospace"><%=name %>'s info</h1>
+  </section>
+  </header>
+  <main class="container">
+    
+
+    <section class="char-img">
+      <div class="card">
+        <img src="<%=character.intro.thumbnail.url %>" class="card-img-top" alt="...">           
+          <div class="card-body">
+            <h5 class="card-title"><%=character.intro.title%></h5>
+            
+          </div>
+        </div>
+      </section>
+
+    <section class="desc">
+      <div class="card" >
+        <h5 class="card-header">Description</h5>
+        <div class="card-body">
+          <p class="card-text font-monospace "><%=character.intro.description%></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cons">
+      <div class="card">
+        <h5 class="card-header">Constillation</h5>
+        <div class="card-body">
+          <% character.cons.fields.forEach(element => { %>
+
+            <p class="card-text font-monospace"><%= element.name %> </p>
+            
+          <%}); %> 
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="passive">
+      <div class="card">
+        <h5 class="card-header">Passive</h5>
+        <div class="card-body">
+          <% character.p.fields.forEach(element => { %>
+
+            <p class="card-text font-monospace"><%= element.name %> </p>
+            <p class="card-text font-monospace"><%= element.value %> </p>
+            
+          <%}); %> 
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="playstyle">
+      <div class="card">
+        <h5 class="card-header">Playstyle</h5>
+        <div class="card-body">
+            <p class="card-text font-monospace"><%= character.ps.description %> </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="synergy">
+      <div class="card">
+        <h5 class="card-header">synergies</h5>
+        <div class="card-body">
+            <p class="card-text font-monospace"><%= character.syn.description %> </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skill">
+      <div class="card">
+        <h5 class="card-header">skill</h5>
+        <div class="card-body">
+          <% character.sk.fields.forEach(element => { %>
+
+            <p class="card-text font-monospace"><%= element.name %> </p>
+            <p class="card-text font-monospace"><%= element.value %> </p>
+            
+          <%}); %> 
+          
+        </div>
+      </div>
+    </section>
+    
+  </main> 
+
+
+
+    
+  <footer class="footer ">
+    <div>
+        <h4>Github</h4>
+    </div>
+
+</footer>
+
+</body>
+
+</html>
